@@ -11,3 +11,7 @@ It is different in that it is the middle ground. It gives you a chance to choose
 How can you use the staging area to make sure you have one commit per logical change?
 
 For one, I can inspect and compare the file changes against what I current have, what I had previously, and what I plan on doing later. I can determine based on what I am going to commit whether it is too huge of a jump. If it is, it will make finding bugs alot more difficult later. So, perhaps using the staging area to check and make sure that I only do logical commits will work by using the diffs before making the final commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When creating a new feature, or planning an addition of a large change, branches would be really helpful. If I need to revert back to an earlier version while working on a particular feature, it won't drag back all the features that were working correctly at the time and didn't need reversion. It makes things much cleaner and much cleaner to search as well.
