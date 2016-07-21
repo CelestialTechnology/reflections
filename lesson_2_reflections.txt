@@ -6,3 +6,8 @@ When I initialize a repository, it creates an empty .git repo to be used to trac
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 It is different in that it is the middle ground. It gives you a chance to choose what you want to commit and make changes to it first. Because once you commit, it is committed. The staging area gives you a chance to logically process what you want to stage.
+
+3:43 pm
+How can you use the staging area to make sure you have one commit per logical change?
+
+For one, I can inspect and compare the file changes against what I current have, what I had previously, and what I plan on doing later. I can determine based on what I am going to commit whether it is too huge of a jump. If it is, it will make finding bugs alot more difficult later. So, perhaps using the staging area to check and make sure that I only do logical commits will work by using the diffs before making the final commit.
