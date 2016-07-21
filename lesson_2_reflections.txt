@@ -15,3 +15,8 @@ For one, I can inspect and compare the file changes against what I current have,
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 When creating a new feature, or planning an addition of a large change, branches would be really helpful. If I need to revert back to an earlier version while working on a particular feature, it won't drag back all the features that were working correctly at the time and didn't need reversion. It makes things much cleaner and much cleaner to search as well.
+
+5:37 pm
+How do the diagrams help you visualise the branch structure?
+
+It gives a very clear picture of how the pull/merge system works. It also showed me this: that if I make commits without a branch, and then checkout to another branch...I lost all the commits for it. Which does no good... haha...
