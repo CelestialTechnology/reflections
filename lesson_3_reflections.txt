@@ -33,3 +33,8 @@ A branch makes a copy of the main master branch and allows me to make changes wi
  copy with their name on it so we could see their changes. A couple of people editted and saved over the main file, so we
  had nothing we could go back to. It was one of my graphic design classes in highschool, so restoring meant redesigning. 
  With Git, the usage of branches is just awesome.
+
+ 4:25 pm
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Having a separate branch creates a permission based system. Where it at least controls what types of changes are made to the master branch and when, which prevents the working master branch from breaking.
