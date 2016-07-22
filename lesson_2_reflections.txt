@@ -20,3 +20,8 @@ When creating a new feature, or planning an addition of a large change, branches
 How do the diagrams help you visualise the branch structure?
 
 It gives a very clear picture of how the pull/merge system works. It also showed me this: that if I make commits without a branch, and then checkout to another branch...I lost all the commits for it. Which does no good... haha...
+
+10:30 pm
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+It merges those features and changes together into the project, and the commits can be traced by a single branch. It is represented  in the diagram this way for the same reason just explained.
