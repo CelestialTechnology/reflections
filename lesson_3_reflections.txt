@@ -5,3 +5,16 @@ use it when I want to work on my project on multiple computers. This will be hel
 I want to switch from my laptop to working on my desktop. It will also allow for easy 
 collaboration with others, since we all won't be working on the same machine...
 hopefully, haha.
+
+July 22, 2016 2:22 pm
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A fork is a clone of a repository done on the GitHub server/web site. It allows me to make modifications to the repository
+ without it affecting the owners original repository, but still giving credit to the original owner.
+
+A clone is a copy of a repository made from the GitHub server to my local machine. It allows me to make changes locally, 
+and choose what to push to the main GitHub server.
+
+A branch makes a copy of the main master branch and allows me to make changes without affecting the master branch. I can
+ then merge those changes on the other branch to the master branch when I feel the new feature or reason I made the 
+ branch is ready. 
