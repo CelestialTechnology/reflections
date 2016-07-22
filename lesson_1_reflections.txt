@@ -1,30 +1,48 @@
 How did viewing a diff between two versions of a file help you see the bug that was introduced?
 
-For one, seeing what changes I made did immense help to see how it broke. Usually when I create software, I didn't use multiple versions to see what changes caused the software to stop working. I rather just tried to "figure it out." However, this process was extremely painful and arduous. I know see a usefulness to having a previous version on hand... 
+For one, seeing what changes I made did immense help to see how it broke. Usually when I create software, I didn't use 
+multiple versions to see what changes caused the software to stop working. I rather just tried to "figure it out." 
+However, this process was extremely painful and arduous. I know see a usefulness to having a previous version on hand... 
 
 How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
-I could see the changes as they go, make edits, and if I see the edits are no longer useful, or I choose to go down a different path, I can choose to go back to a previous version. It really helps to see the journey over the destination, you know?
+I could see the changes as they go, make edits, and if I see the edits are no longer useful, or I choose to go down a 
+different path, I can choose to go back to a previous version. It really helps to see the journey over the destination, 
+you know?
 
 July 20, 2016 1:24 pm
-What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having 
+versions automatically saved, like Google Docs does?
 
-The advantages of manually choosing when to save allows for logical saves or check points to refer back to or branch off of. However, with no automatic committing can have the danger of losing track of my work. For instance, if I forget to commit in a while...it will definitely be harder to track down the changes. Google Docs provides security of autosaving so there will be no fear of losing changes for work, and it is good for things like research papers and the works. But such strategy for code isn't as viable.
+The advantages of manually choosing when to save allows for logical saves or check points to refer back to or branch off 
+of. However, with no automatic committing can have the danger of losing track of my work. For instance, if I forget to 
+commit in a while...it will definitely be harder to track down the changes. Google Docs provides security of autosaving 
+so there will be no fear of losing changes for work, and it is good for things like research papers and the works. But 
+such strategy for code isn't as viable.
 
 July 20, 2016 1:30 pm
-Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like 
+Google Docs, treat each file separately?
 
-Usually programming projects have multiple files that affect the final output. So having multiple file changes to be saved is sooo much easier than having to go commit each individual file. And it allows for seeing the relationship of the changes between each file in the commit. However, I don't think someone would write a novel in Google Docs, since usually a document does not necessarily affect other files. 
+Usually programming projects have multiple files that affect the final output. So having multiple file changes to be 
+saved is sooo much easier than having to go commit each individual file. And it allows for seeing the relationship of 
+the changes between each file in the commit. However, I don't think someone would write a novel in Google Docs, since 
+usually a document does not necessarily affect other files. 
 
 July 21, 2016 12:13 pm
 How can you use the commands git log and git diff to view the history of files?
 
-For one, git is awesome! git log allows me to see the history of all the commits made in the past. git diff allows me to see the difference between each of those commits. So this will be useful in debugging, to see what changes cause my software to mess up, stop working, or had unintended side effects.
+For one, git is awesome! git log allows me to see the history of all the commits made in the past. git diff allows me 
+to see the difference between each of those commits. So this will be useful in debugging, to see what changes cause my 
+software to mess up, stop working, or had unintended side effects.
 
 12:47 pm
 How might using version control make you more confident to make changes that could break something?
 
-Well, for starters, I could always go back! I remember doing a project back in highschool where I made ALOT of changes in one go. And it stopped working correctly. Thing is, I didn't use version control. How could I possibly know what I broke? And I couldn't restore it to a previous version, so I just kept making it worse and worse. With version control? No more!
+Well, for starters, I could always go back! I remember doing a project back in highschool where I made ALOT of changes
+ in one go. And it stopped working correctly. Thing is, I didn't use version control. How could I possibly know what I 
+ broke? And I couldn't restore it to a previous version, so I just kept making it worse and worse. With version control? 
+ No more!
 
 1:28 pm
 Now that you have your workspace set up, what do you want to try using Git for?
