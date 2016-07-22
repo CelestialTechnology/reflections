@@ -23,3 +23,13 @@ A branch makes a copy of the main master branch and allows me to make changes wi
  What is the benefit of having a copy of the last known state of the remote stored locally?
 
  This is beneficial to know the last known state so we can do comparisons with our most up to date version of the remote that is stored online. We couldn't do that if the remote wasn't stored locally. 
+
+ 3:38 pm
+ How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+ For one, it would be a whole lot of flash drive passing around, slamming my head against the wall because of lost files,
+ more slamming because others lost their files; Or, in some cases, I have used google drive or the sorts for collaboration.
+ It was a nightmare. Everyone was to make a copy of the main files, and then not overwrite the main files, but save their 
+ copy with their name on it so we could see their changes. A couple of people editted and saved over the main file, so we
+ had nothing we could go back to. It was one of my graphic design classes in highschool, so restoring meant redesigning. 
+ With Git, the usage of branches is just awesome.
