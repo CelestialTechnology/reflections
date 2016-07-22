@@ -25,3 +25,8 @@ It gives a very clear picture of how the pull/merge system works. It also showed
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 It merges those features and changes together into the project, and the commits can be traced by a single branch. It is represented  in the diagram this way for the same reason just explained.
+
+July 22, 2016
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+The pros are that it logically merges them, but also alerts the user when those auto merges are not possible and why. There would have to be advanced machine learning done for it to accomplish this purpose. The pros of merging manually are that a person can logically choose what to merge and conclude what changes should be included in that merge. The cons? You have to do it manually and could make mistakes.
