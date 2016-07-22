@@ -18,3 +18,8 @@ and choose what to push to the main GitHub server.
 A branch makes a copy of the main master branch and allows me to make changes without affecting the master branch. I can
  then merge those changes on the other branch to the master branch when I feel the new feature or reason I made the 
  branch is ready. 
+
+3:21 pm
+ What is the benefit of having a copy of the last known state of the remote stored locally?
+
+ This is beneficial to know the last known state so we can do comparisons with our most up to date version of the remote that is stored online. We couldn't do that if the remote wasn't stored locally. 
